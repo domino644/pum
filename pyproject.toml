@@ -8,12 +8,15 @@ readme = "README.md"
 requires-python = "==3.11.*"
 
 dependencies = [
-    "feature_engine",
     "imblearn>=0.0",
+    "fast-langdetect",
+    "feature-engine",
+    "imbalanced-learn",
     "jupyter",
     "matplotlib",
     "pandas==2.*",
     "pillow",
+    "plotly",
     "pyarrow",
     "pynndescent",
     "pyod>=2.0.5",
@@ -23,7 +26,8 @@ dependencies = [
     "sentence_transformers",
     "torch",
     "tqdm",
-    "xgboost>=3.0.2",
+    "xgboost",
+    "umap-learn",
 ]
 
 [dependency-groups]
