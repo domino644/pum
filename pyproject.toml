@@ -28,6 +28,7 @@ dependencies = [
     "tqdm",
     "xgboost",
     "umap-learn",
+    "kneed>=0.8.5",
 ]
 
 [dependency-groups]
