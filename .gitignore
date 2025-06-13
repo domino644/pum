@@ -3,3 +3,5 @@
 lab2/images
 lab4/Liver_GSE14520_U133A.csv
 .ruff_cache
+artists.csv
+tracks.csv

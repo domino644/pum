@@ -118,6 +118,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "fast-langdetect" },
     { name = "feature-engine" },
+    { name = "imbalanced-learn" },
     { name = "imblearn" },
     { name = "jupyter" },
     { name = "matplotlib" },
@@ -148,6 +149,7 @@ dev = [
 requires-dist = [
     { name = "fast-langdetect" },
     { name = "feature-engine" },
+    { name = "imbalanced-learn" },
     { name = "imblearn", specifier = ">=0.0" },
     { name = "jupyter" },
     { name = "matplotlib" },
